@@ -8,5 +8,4 @@ Solution:
 SELECT * FROM CITY
 
 Explanation: 
-
 Here we are selecting all the attributes(columns) using " * " from the City table.
