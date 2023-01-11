@@ -1,0 +1,13 @@
+Language Used : MySQL
+
+Problem Statement:
+Query all columns for a city in CITY with the ID 1661.
+
+Solution:
+SELECT * 
+FROM CITY
+WHERE ID = 1661
+
+Explanation: 
+Here we are selecting all the attributes(column) from the city table where ID(is an attribute)
+& we are filtering out the rows having the ID = 1661.
