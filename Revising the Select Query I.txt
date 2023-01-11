@@ -9,4 +9,5 @@ Select *
 From CITY
 Where COUNTRYCODE = "USA" AND POPULATION >100000
 
-Explanation: 
+Explanation:
+Here we are Selecting all the attributes(columns) from the city table and then filtering out by countrycode and population, which are attributes of the City table.
