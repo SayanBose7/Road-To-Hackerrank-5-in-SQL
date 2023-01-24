@@ -10,5 +10,4 @@ FROM STATION
 WHERE (ID%2=0)
 
 Explanation:
-Here we are using DISTINCT key-word to remove duplicate values when we are picking up the 
-CITY column and we are filtering the even ID numbers by the logic (ID%2=0).
+Here we are using DISTINCT key-word to remove duplicate values when we are picking up the  CITY column and we are filtering the even ID numbers by the logic (ID%2=0).
