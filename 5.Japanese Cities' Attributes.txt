@@ -1,0 +1,13 @@
+Language Used : MySQL
+
+Problem Statement:
+Query all attributes of every Japanese city in the CITY table. The COUNTRYCODE for Japan is JPN.
+
+Solution:
+SELECT * 
+FROM CITY 
+WHERE COUNTRYCODE ="JPN"
+
+Explanation:
+Here we are Selecting all the attributes(columns) from the city table and
+then filtering out by countrycode, which is attribute of the City table.

@@ -1,0 +1,14 @@
+Language Used : MySQL
+
+Problem Statement:
+Query the NAME field for all American cities in the CITY table with populations larger than 120000.
+The CountryCode for America is USA.
+
+Solution:
+SELECT NAME
+FROM CITY 
+WHERE COUNTRYCODE = "USA" AND POPULATION > 120000
+
+Explanation:
+Here we are Selecting all the attributes(columns) from the city table and
+then filtering out by countrycode and population, which are attributes of the City table.
