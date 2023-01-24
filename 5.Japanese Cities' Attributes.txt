@@ -9,5 +9,4 @@ FROM CITY
 WHERE COUNTRYCODE ="JPN"
 
 Explanation:
-Here we are Selecting all the attributes(columns) from the city table and
-then filtering out by countrycode, which is attribute of the City table.
+Here we are Selecting all the attributes(columns) from the city table and then filtering out by countrycode, which is attribute of the City table.
